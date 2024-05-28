@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wrapper {
+	@apply w-full min-h-full overflow-hidden flex flex-col;
+}
+
+.__container {
+	@apply max-w-[1208px] mx-auto px-5;
+}
+
+.menu__list {
+	li {
+		@apply hover:underline cursor-pointer;
+	}
+}
+
+.title {
+	@apply font-stolzl font-normal text-4xl md:text-2xl;
+}
+
+.footer {
+	@apply mt-28;
+	background: url("../assets/img/footer/gradientBg.jpg") center 0 no-repeat;
+	background-size: cover;
+}

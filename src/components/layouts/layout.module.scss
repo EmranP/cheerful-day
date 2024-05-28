@@ -1,0 +1,22 @@
+.main__subtitle {
+	@apply flex flex-auto items-center justify-start flex-wrap mt-5 md:py-8;
+	div {
+		@apply flex items-center text-base;
+		span {
+			@apply flex text-4xl items-start font-stolzl font-medium pr-2;
+		}
+	}
+}
+
+.menu__btn {
+	@apply space-x-5 flex rounded-2xl;
+	button {
+		@apply px-6 py-3 hover:bg-colorGreen transition-colors p-2 rounded-xl font-stolzl font-normal text-colorBlackBD;
+	}
+}
+
+.section__partner {
+	@apply mt-28;
+	background: url("../../assets/img/franchise/bg.jpg") center / 0 no-repeat;
+	background-size: cover;
+}
